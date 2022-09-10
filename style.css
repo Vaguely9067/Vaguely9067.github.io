@@ -1,11 +1,14 @@
 body {
-  background-color: #444444;
-    color: #ddd;
+  background-image: url("https://images.unsplash.com/photo-1532153268424-75fc7e31b665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG9sZCUyMHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
   font-family: Ariel, Helvetica, sans-serif;
-  margin: 10% 20%;
+  margin: 20% 20%;
 }
 
-h1 {
+.resume-header {
   text-align: center
 }
 
@@ -14,4 +17,3 @@ h1 {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: rgba(0,0,0, 0.1)
-}
